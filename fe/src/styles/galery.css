@@ -1,0 +1,21 @@
+.galery-container {
+    background-image: url('../assets/bg-galeri.png');
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.galery-content {
+    display: flex;
+    gap: 20px;
+}
+
+.galery-content img {
+    width: 400px;
+}

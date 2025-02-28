@@ -1,0 +1,14 @@
+.cta-container {
+    background-image: url('../assets/cta-bg.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-content {
+    text-align: center;
+    padding: 40px;
+    background: none;
+    color: white;
+}

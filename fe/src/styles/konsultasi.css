@@ -1,0 +1,48 @@
+body {    
+    background-color: #f8f8f8;
+}
+
+.konsultasi-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.konsultasi-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.konsultasi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.konsultasi-form .input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.konsultasi-form input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.konsultasi-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.konsultasi-form .full-width {
+    margin-top: 10px;
+    width: 100%;
+    height: 20vh;
+}

@@ -1,0 +1,32 @@
+/* Style to position the icon inside the input */
+.input-group {
+    position: relative;
+  }
+  
+  .input-group-text {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* To prevent icon interaction */
+  }
+  
+  /* Space for the icon in the input field */
+  .input-group input {
+    padding-left: 30px; /* Space for the icon */
+  }
+  
+  /* Ensure the placeholder text aligns with the icon */
+  .input-group input::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Slightly transparent color */
+  }
+  
+  /* When the input is focused, hide the placeholder and icon */
+  .input-group input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .input-group input:focus + .input-group-text {
+    display: none;
+  }
+  

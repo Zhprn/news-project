@@ -1,0 +1,22 @@
+.sidebar {
+    width: 250px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .nav-link {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3 !important;
+  }
+  
+  .nav-link.text-primary {
+    font-weight: bold;
+  }
+  
+  button {
+    border-radius: 5px;
+  }
+  
