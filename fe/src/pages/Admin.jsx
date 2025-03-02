@@ -5,6 +5,7 @@ import AddPostComponent from "../components/AddPostComponent";
 import ManagePostComponent from "../components/ManagePostComponent";
 import ManageTeamComponent from "../components/ManageTeamComponent";
 import ManagePositionComponent from "../components/ManagePositionComponent";
+import ManageGaleryComponent from "../components/ManageGaleryComponent";
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -20,6 +21,7 @@ const Admin = () => {
         {activeTab === "managePost" && <ManagePostComponent />}
         {activeTab === "manageTeam" && <ManageTeamComponent />}
         {activeTab === "managePosition" && <ManagePositionComponent />}
+        {activeTab === "manageGallery" && <ManageGaleryComponent />}
       </div>
     </div>
   );
